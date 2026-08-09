@@ -1,0 +1,39 @@
+{
+  "name": "VeriWrk",
+  "short_name": "VeriWrk",
+  "description": "Africa's trusted workforce verification platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060d1a",
+  "theme_color": "#0d1b2a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%230d1b2a'/><text y='130' x='96' text-anchor='middle' font-size='120' font-family='Arial' fill='%23f5a623'>V</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%230d1b2a'/><text y='360' x='256' text-anchor='middle' font-size='340' font-family='Arial' fill='%23f5a623'>V</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Build my profile",
+      "url": "/profile.html",
+      "description": "Create your verified worker profile"
+    },
+    {
+      "name": "Verify a worker",
+      "url": "/employer.html",
+      "description": "Submit a verification request"
+    },
+    {
+      "name": "ROI calculator",
+      "url": "/calculator.html",
+      "description": "See how much bad hires cost you"
+    }
+  ]
+}
